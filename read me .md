@@ -1,54 +1,62 @@
-#Mern E-commerce Website 
-#Author: @Prabesh shah 
-# Html /css /js/Tailwind css
--Design e-commerceebsite 
--Responsive 
--Light and Dark Room
--Tailwind css for styling 
--Dom Manuplation
+# MERN E-commerce site (MongoDB, Express, React, Node)
 
+## HTML/CSS/JS/Tailwind
+- Design e-commerce website
+- Responsive
+- Light & Dark modes
+- Tailwind css for styling
+- DOM manipulation
 
-##API - Node.js with Express(Type Script )
--create server 
--Authentoication And authorization 
--Product Model (CRUD)
--user model
--order model 
--payment model 
--khalti payment gateway /stripe 
--cloudinary for srorage (image )
--Gimin
+## API - Node.js with Express.js (Typescript)
+- Create server
+- Authentication & Authorization
+- Product Model (CRUD)
+- User Model
+- Order Model
+- Payment Model
+- Khalti payment system/Stripe
+- Cloudinary for storage (images)
+- Gemini
 
-##Database - MongoDB,Mongoose ORM
--Shell 
--Atlas
--Compass
+## Database - MongoDB, Mongoose ORM
+- Shell
+- Compass
+- Altas
 
-##Web app -React with Next .js ( Type script )
--basics react 
--build project uisng next.js 
--conecting with api 
+## Webapp - React with Next.js (Typescript)
+- Basics react
+- Build project using Next.js
+- Connect with API
 
-## html (hyper text markup language)
-for eg:<a href="https://www.example.com">
+## HTML (Hypertext Markup language)
 
-1.Html structure 
--<html> </html>
--<head> <head>
--<body> <body>
+for eg: <a href="www.google.com">Google</a>
 
-2.text elements 
--h1 to h6
--p
--<strong> </strong >
-<emphasis><emphasis>
--<sub></sub >
--<sup></sup>
-3.Lists
-
-4.forms 
-5.links ,images 
-6.embedding 
-7.tables 
-8.Sementis elemnts 
-9.Block and inline elemnts
+1. HTML Structure 
+    - <html></html>
+    - <head></head>
+    - <body></body>
+    - <title></title>
+2. Text elements
+    - h1 to h6
+    - p
+    - strong
+    - sub
+    - sup
+    - em
+    - pre
+3. Lists
+    - ol
+    - ul
+    - li
+4. Links, images, videos
+    - <a href="url"></a>
+    - <img src="">
+    - <video src="">
+5. Block and inline elements
+    - Block: Covers the full width
+    - Inline: Covers required content width
+6. Table
+7. Forms
+8. Embedding
+9. Semantic elements
