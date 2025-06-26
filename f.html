@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <!-- Attribue (Properties)  -->
+    <a href="#">Click ME </a>
+    <img src="" alt="" />
+    <form action="#" method="get">
+        <h1>Input Elements</h1>
+        <div>
+            <label for="username">Full Name </label>
+            <input type="text" id="username" value="Ram" />
+        </div>
+
+        <div>
+            <label for ="age" >Age </label>
+            <input 
+            type="Number" 
+            id="age
+            name = " age"
+            placeholder="your age "
+            min="0"
+            max ="100"
+                />
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email"  
+            id="email" name="email" 
+            placeholder="your email address"   
+            reqiured
+             />
+
+
+        </div>
+        <div>
+            <label for="Passeord ">Password</label>
+            <input type="Password"
+            id ="password"
+            name="password"
+            required 
+            minlength="6"
+            />
+        </div>
+        
+        <div>
+            <label for="phone"/> Phone</label>
+            <input type ="tel"
+            id ="phone"
+            name="phone"
+            disabled
+            />
+        </div>
+        <div>
+            <label for="male ">Male</label>
+            <input type="radio" 
+             name="gender"
+             id="male"
+             value="male" checked/>
+           </div>
+           <div>
+            <label for="option-a">Option A</label>
+            <input
+            type="checkbox"
+            name="checkboxOption"
+            id="option-a"
+            value="option-a"
+            checked
+            />
+            <label for="option-b">Option b</label>
+            <input
+            type="checkbox"
+            name="checkboxOption"
+            id="option-b"
+            value="option-b"
+            checked
+            />
+            <label for="option-c">Option C</label>
+            <input
+            type="checkbox"
+            name="checkboxOption"
+            id="option-c"
+            value="option-c"
+            
+            />
+            <label for="option-d">Option D</label>
+            <input
+            type="checkbox"
+            name="checkboxOption"
+            id="option-d"
+            value="option-d"
+            
+            />
+           </div>
+           <div>
+            <label for="date">Date  </label>
+            <input type="date" name="date" id="date"/>
+            <label for="time">Time</label>
+            <input type="time" name="time"  id ="timr"/>
+            <br>
+            <input type="datetime-local"/>
+        </div>
+        <div> 
+            <label for="rating">Rating</label>
+            <input type="range"
+            min="o"
+            max="5"
+            step="1"
+            id="rating"
+            name="rating"
+            />
+        </div>
+        <div>
+            <label for ="color">Color</label>
+            <input 
+            type="color"
+            id="color"
+            name="color"/>
+
+        </div>
+        <div>
+            <label for="file">File</label>
+            <input type="file"
+            id="file"
+            name="file"
+            type="file"
+            multiple
+            accept=".png,.jpg,.jpeg,.mp4,.sgv"
+            />
+        </div>
+        <div>
+            <label for="class">Class</label>
+            <select id="class" name="class">
+                <option selected disabled>Select Class</option>    
+                <option value="1">Class 1</option>
+                <option value="2">Class 2</option>
+                <option value="3">Class 3</option>
+                <option value="4">Class 4</option>
+                <option value="5">Class 5</option>
+                <option value="6">Class 6</option>
+
+            </select>
+        </div>
+        <div>
+            <label for="teachers">Teachers</label>
+            <input type="text" id="teachers" list="teacherList"/>
+            <datalist id="teacherList">
+                <option value="anil"></option>
+                <option value="ayush"></option>
+                <option value="ramesh"></option>
+                <option value="bibek "></option>
+                <option value="dog"></option>
+                <option value="harry"></option>
+            </datalist>
+        </div>
+        <div>
+            <label for="message"> Message </label>
+            <textarea id="message" name ="message"></textarea>
+        </div>
+        <fieldset>
+            <legend> your contact information</legend>
+            <input type ="email" placeholder="email address"/>
+            <input type="tel" name="" id="" placeholder="phone number">
+
+        </fieldset>
+        <input type="submit" value="submit"/>
+    </form>
+</body>
+</html>
