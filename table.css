@@ -1,0 +1,34 @@
+table{
+    border:1px solid grey;
+    border-collapse: collapse; /* collapse, separate */
+
+}
+td{
+    border:1px solid grey;
+    padding: 0.25rem 0.75rem; /* padding: top right bottom left */
+}
+th {
+    border: 1px solid grey;
+    padding: 0.25rem 0.5rem; /* padding: top right*/
+    background-color: limegreen;
+    color: white;
+    font-size: 1.25rem;
+    text-align: left; /* left, right, center, justify */
+}
+table tr:Last-child td {
+    padding: 1rem;
+    background-color: lightgrey; /* lightgrey, grey, darkgrey, black, white */
+    text-align: right; /* left, right, center, justify */
+}
+table tbody tr:first-child td {
+    background-color: rgb(16, 168, 219); /* lightblue, blue, darkblue, navy */
+}
+table tbody tr:nth-child(2) td {
+    background-color: rgb(255, 204, 0); /* yellow, lightyellow, darkyellow */
+}
+table tbody tr:nth-child(2n) td {
+    background-color: rgb(238, 44, 44); /* lightgrey, grey, darkgrey */
+}
+table tbody tr:nth-child(2n+1) td {
+    background-color: rgb(228, 32, 176); /* lightgreen, green, darkgreen */
+}

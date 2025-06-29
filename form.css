@@ -1,0 +1,52 @@
+label{
+    font-family: sans-serif; /* Font Family: serif, sans-serif, monospace, cursive, fantasy */
+    font-size: 0.75rem; /* Font Size */
+
+}
+form{
+    border:1px solid #ccc; /* type, size, color */
+    border-radius: 10px; /* border-radius: top-right top-left bottom-right bottom-left */
+    background-color: #efefef; /* lightgrey, grey, darkgrey, black, white */
+    padding: 1rem 2rem; /* padding: top right bottom left */
+    max-width: 50%; /* Width */
+    margin: auto; /* Margin: top, right, bottom, left  */
+}
+Select,
+textarea,
+input{
+    width:100%; /* Width */
+    margin-top: 0.25rem ; /* Margin: top, right, bottom, left  only in block elements*/
+    margin-bottom:0.5rem ;
+    background-color: #fefefe; /* lightgrey, grey, darkgrey, black, white */
+    border :none;
+    padding:0.15rem 0.5rem; /* padding: top right bottom left */
+    border-radius: 5px; /* border-radius: top-right top-left bottom-right bottom-left */
+}   
+input:disable{
+    background-color:#b2b2b2;
+
+}
+input[type=checkbox],
+input[type=color],
+input[type=radio]{
+    width: auto;;
+    min-width: 3rem;
+}
+input[type=submit]{
+    width:auto;
+    background-color: #4CAF50; /* lightgreen, green, darkgreen */
+    color:white;
+    padding: 0.5rem 1rem; /* padding: top right bottom left */
+    
+}
+input[type=submit]:hover{
+
+    cursor: pointer; /* cursor: pointer, default, text, move, wait, help, not-allowed */
+
+}
+.Submit {
+  /* display: flex;
+  justify-content: center;
+} */
+ text-align: center;;
+ } 

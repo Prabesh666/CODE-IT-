@@ -1,5 +1,127 @@
-.info {
-  background-color: black;
-  font-size: 1rem;
-  color: green !important;
+html{
+    font-size: 20px; /* 1 rem = 20px */
 }
+/* color Properties for the entire document */ 
+.title{
+    color:rgb(10,20,100); /* RGB ( 0-255) */
+    /* Hexa color Format(0-f) */
+    color: #ffffff; /* Hexa (0-9, a-f)*/ 
+    background-color: rgb(35, 227, 179); /* Background color */
+}
+
+/* Text Propertioes */
+.title{
+    text-align: center; /* Text alignment */
+    text-decoration: underline; /* Text Decoration */
+    text-transform: capitalize; /* Text Transform, uppercase, lowercase, capitalize */
+    text-shadow : -2px 2px 0px rgb(22, 73, 227); /* Text Shadow */  */how to use text-shadow: horizontal offset, vertical offset, blur radius, color  */
+    letter-spacing: 10px; /* Letter Spacing */
+    word-spacing: 10px; /* Word Spacing */
+    
+}
+.content{
+    text-align: justify; /* Text Alignment: left, right, center, justify */
+    line-height: 1.25 ; /* Line Height */
+
+
+}
+/* Font Properties */
+.title {
+   font-size: 50px; /* Font Size */
+   font-weight: bold;
+   font-family: roboto;/* Font Family: serif, sans-serif, monospace, cursive, fantasy */
+   font-style: italic; /* Font Style: normal, italic, oblique */
+}
+.conten {
+    font-size: 20px; /* Font Size */
+    font-weight:500; /* Font Weight: normal, bold, bolder, lighter */
+
+}
+/* box model  */
+.title {
+    margin: 20px 10px 40px 5px; /* Margin: top, right, bottom, left */ /* Margin: 20px; */ /* Margin: all sides */
+    padding: 20px;
+    border: 5px  solid green; /* type, size, color */
+    height: 100px;
+    width: 450px; /* Width and Height */
+}
+    /* Dispaly Properties */
+    .label{
+        text-align: center; /* Text alignment */
+        display: block; /* Display: block, inline (width dosent work), inline-block, flex, grid, none */
+        width: 400px; /* Width */
+        height: 100px; /* Height */
+    }
+    
+    /* Flex Box Properties  */
+    .box{
+        background-color: antiquewhite;
+        display: flex; /* default horizontal direction */
+        flex-direction: row; /* row, column, row-reverse, col-reverse */
+        justify-content: left; /* left, right, center, space-between, space-around, space-evenly */
+        align-items: center;
+        gap: 10px;
+        box-shadow: 2px 0px 10px 5px rgb(213, 40, 40); /* horizontal vertical spread color */
+        
+    }
+    .box div:first-child {
+     height: 50px;
+     background-color: aqua;
+
+    }
+    .extra{
+        cursor: not-allowed; /* cursor: pointer, default, text, move, wait, help, not-allowed */
+        opacity: 0.8; /* Opacity: 0-1 */
+    }
+    .list{
+        list-style: square; /* list-style: none, disc, circle, square */
+    }
+    .ordered-list{
+        list-style-type:lower-roman; /* list-style-type: decimal, decimal-leading-zero, lower-alpha, upper-alpha, lower-roman, upper-roman */
+    }
+    
+    /* pseudo (fake) */
+    .extra:hover {
+    background-color: brown;
+    }
+
+    .box div:first-child {
+    color: red;
+    }
+
+    .box div:last-child {
+    color: green;
+    }
+
+    .box div:nth-child(3) {
+    color: blue;
+    }
+    input{
+       background-color:red;
+    }
+    input:disabled {
+        background-color: gray;
+    }
+   /* px, rem, em, in, cm, vh, vw*/
+    .info {
+    border: 1px solid;
+
+    /* px:pixel */
+    font-size: 20px;
+    /* rem: relative to root */
+    font-size: 1.5rem;
+    /* em: relative to parent */
+    font-size: 3em;
+    background-color: bisque;
+    width: 200px;
+    height: 100px;
+    overflow: auto; /* hidden, auto, visible, scroll */
+    }
+
+    .info-box {
+    font-size: 10px;
+    /* vh: viewing height */
+    height: 50vh;
+    /* vw: viewing width */
+    width: 50vw;
+    }
