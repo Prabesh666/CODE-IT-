@@ -1,0 +1,48 @@
+.box{
+    height: 200px;
+    width:300px;
+    background-color: aqua;
+    animation: my_animation 10s ease-out infinite;
+}
+/* Translate change position */
+/* .box:hover{
+    transform: translateX(50px, 100px);
+} */
+
+/* Rotate */
+/* .box:hover{
+    transform: rotate(45deg);
+} */
+
+/* scale  */
+/* .box:hover{
+    transform: scale(1.5);
+} */
+
+/* Skew */
+/* .box:hover{
+    transform: skewx(30deg);
+} */
+ @keyframes my_animation{
+
+    0%{
+        transform: translate(0,0);
+        background-color: blueviolet;
+    }
+    25%{
+        transform: translate(500px ,0px) rotate(45deg);
+        background-color: seagreen;
+    }
+    50%{
+        transform: translate(500px 500px) rotate(90deg);
+        background-color: orangered;
+    }
+    75%{
+        transform: translate(0px, 500px) rotate(135deg);
+        background-color: yellowgreen;
+    }
+    100%{
+        transform: translate(0,0)   rotate(180deg);
+        background-color: chartreuse;
+    }
+ }
