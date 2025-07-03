@@ -1,0 +1,62 @@
+{
+  "name": "Prabesh Dark Contrast",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#0d1117",
+    "editor.foreground": "#e6edf3",
+    "editor.lineHighlightBackground": "#161b22",
+    "editorCursor.foreground": "#58a6ff",
+    "editorWhitespace.foreground": "#484f58",
+    "editorIndentGuide.background": "#2c313a",
+    "editor.selectionBackground": "#264f78",
+    "editor.selectionHighlightBackground": "#3b4b5a",
+    "editor.lineHighlightBorder": "#30363d"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#8b949e",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["keyword", "storage.type"],
+      "settings": {
+        "foreground": "#ff7b72",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["string", "constant.other.symbol"],
+      "settings": {
+        "foreground": "#a5d6ff"
+      }
+    },
+    {
+      "scope": ["variable", "identifier"],
+      "settings": {
+        "foreground": "#e6edf3"
+      }
+    },
+    {
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "#d2a8ff"
+      }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#d2a8ff",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["variable.language", "variable.parameter"],
+      "settings": {
+        "foreground": "#79c0ff"
+      }
+    }
+  ]
+}
