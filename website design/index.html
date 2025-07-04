@@ -2,446 +2,452 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mern Ecommerce</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-    rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoes kart</title>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            primary: "#1E3A8A",
-            secondary: "#D4AF37",
-          },
-          fontFamily: {
-            sans: ["Inter", "sans-serif"],
 
-          }
-        },
-      },
-    }
-  </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#1E3A8A",
+                        secondary: "#D4AF37",
+                    },
+                    fontFamily: {
+                        sans: ["Inter", "sans-serif"],
+
+                    }
+                },
+            },
+        }
+    </script>
+    <link rel="icon" type="png" href="assets/images/running_shoes.jpg">
 </head>
 
 <body>
-  <header class="shadow sticky top-0 bg-white z-50">
-    <div class="container ma-auto p-4">
-      <div class="flex justify-between">
+    <header class="shadow sticky top-0 bg-white z-50">
+        <div class="container ma-auto p-4">
+            <div class="flex justify-between">
 
-        <a href="#">
-          <div class="flex items-center justify-center font-semibold hover:font-bold w-40">
-            <span class="text-secondary">Shoes </span>
-            <Span class="text-primary">Kart</Span>
-          </div>
-        </a>
-        <nav class="hidden md:flex gap-3">
-          <a href="#" class="text-secondary font-medium hover:text-primary">Home</a>
-          <a href="#" class="text-secondary font-medium hover:text-primary ">Products</a>
-          <a href="#" class="text-secondary font-medium  hover:text-primary">About</a>
-          <a href="#" class="text-secondary font-medium hover:text-primary">Contact</a>
+                <a href="#">
+                    <div class="flex items-center justify-center font-semibold hover:font-bold w-40">
+                        <span class="text-secondary">Shoes </span>
+                        <Span class="text-primary">Kart</Span>
+                    </div>
+                </a>
+                <nav class="hidden md:flex gap-3">
+                    <a href="#" class="text-secondary font-medium hover:text-primary">Home</a>
+                    <a href="#" class="text-secondary font-medium hover:text-primary ">Products</a>
+                    <a href="#" class="text-secondary font-medium  hover:text-primary">About</a>
+                    <a href="#" class="text-secondary font-medium hover:text-primary">Contact</a>
 
-        </nav>
-        <a href="#">
-          <div class="text-primary font-bold hover:text-secondary">
-            <i class="fa-solid fa-cart-shopping"></i>
-            <span class="ml-2">Cart</span>
-          </div>
-        </a>
-      </div>
-  </header>
-  <main class="h-svh ">
-    <!-- Hero Section -->
-    <section class="py-12 md:py-24 bg-gradient-to-r from-primary/50 via-black to-secondary text-white">
-      <div class="cointainer mx-auto p-4">
-        <div class="flex  flex-col md:flex-row items-center md:justify-between">
-          <!--contents-->
-          <div class="md:w:1/2 mb-10 md:mb-0">
-            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">New Amazimg Products </h1>
-            <p class="text-xl">Shop today and get<span class="font-semibold"> 20% discounts</span> </p>
-            <div class=" py-4 flex flex-col md:flex-row gap-y-3 gap-x-5">
-              <a href="#"
-                class=" bg-secondary px-6 py-3 rounded-md text-center  border-2 border-primary hover:underline transition shadow-2xl ">Shop
-                Now </a>
-              <a href="#"
-                class="  border-2 border-white text-white px-6 py-3 rounded-md text-center hover:underline transition shadow-2xl">View
-                Products</a>
+                </nav>
+                <a href="#">
+                    <div class="text-primary font-bold hover:text-secondary">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="ml-2">Cart</span>
+                    </div>
+                </a>
             </div>
-          </div>
-          <!-- Image  -->
-          <div class="md:w-1/2  justify-center">
-            <img src="assets/images/running_shoes.jpg" alt="phone"
-              class=" max-w-auto h-auto rounded-xl border-2  shadow-xl  w-3/4 shadow-red-500 lg:w-2/3 float-right">
-          </div>
+    </header>
+    <main class="">
+        <!-- Hero Section -->
+        <section class="py-12 md:py-24 bg-gradient-to-r from-primary/50 via-black to-secondary text-white">
+            <div class="container mx-auto p-4">
+                <div class="flex  flex-col md:flex-row items-center md:justify-between">
+                    <!--contents-->
+                    <div class="md:w:1/2 mb-10 md:mb-0">
+                        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">New Amazimg Products </h1>
+                        <p class="text-xl">Shop today and get<span class="font-semibold"> 20% discounts</span> </p>
+                        <div class=" py-4 flex flex-col md:flex-row gap-y-3 gap-x-5">
+                            <a href="#" class=" bg-secondary px-6 py-3 rounded-md text-center  border-2 border-primary hover:underline transition shadow-2xl ">Shop
+                Now </a>
+                            <a href="#" class="  border-2 border-white text-white px-6 py-3 rounded-md text-center hover:underline transition shadow-2xl">View
+                Products</a>
+                        </div>
+                    </div>
+                    <!-- Image  -->
+                    <div class="md:w-1/2  justify-center">
+                        <img src="assets/images/running_shoes.jpg" alt="phone" class=" max-w-auto h-auto rounded-xl border-2  shadow-xl  w-3/4 shadow-red-500 lg:w-2/3 float-right">
+                    </div>
 
 
-        </div>
-      </div>
-    </section>
+                </div>
+            </div>
+
+        </section>
+    </main>
 
 
     <!-- Why Chose Us -->
     <section class="py-16">
-      <div class="cointainer mx-auto px-4">
-        <div class="text-center mb-10">
-          <h2 class="text-3xl font-semibold text-center ">Why Choose us</h2>
-          <p class="text-white-600 text-center"> 
-            Your trusted destination for quality, value, and style – experience the
-            difference with us!
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl font-semibold text-center ">Why Choose us</h2>
+                <p class="text-white-600 text-center">
+                    Your trusted destination for quality, value, and style – experience the difference with us!
 
-          </p>
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-5">
+                <div class="bg-slate-100 py-5 px-7 rounded-lg  shadow-md">
+                    <div class="text-xl text-primary mb-4">
+                        <i class=" fa fa-check"></i>
+                    </div>
+                    <h3 class=" font-semibold text-xl mb-2">Quality Products </h3>
+                    <p class="text-gray-600 text-lg">
+                        We Provide the best quality Products </p>
+                </div>
+                <div class="bg-slate-100 py-5 px-7 rounded-lg  shadow-md">
+                    <div class="text-xl text-primary mb-4">
+                        <i class=" fa fa-truck"></i>
+                    </div>
+                    <h3 class=" font-semibold text-xl mb-2">Fast Delivery </h3>
+                    <p class="text-gray-600 text-lg">
+                        Get your products deliver fixed time. </p>
+                </div>
+                <div class="bg-slate-100 py-5 px-7 rounded-lg  shadow-md">
+                    <div class="text-xl text-primary mb-4">
+                        <i class=" fa fa-refresh"></i>
+                    </div>
+                    <h3 class=" font-semibold text-xl mb-2">Easy Returns</h3>
+                    <p class="text-gray-600 text-lg">
+                        Quick Returns. No Questions, No Stress. </p>
+                </div>
+                <div class="bg-slate-100 py-5 px-7 rounded-lg  shadow-md">
+                    <div class="text-xl text-primary mb-4">
+                        <i class=" fa fa-credit-card"></i>
+                    </div>
+                    <h3 class=" font-semibold text-xl mb-2">Secure Payment</h3>
+                    <p class="text-gray-600 text-lg">
+                        No Risks. Just Rewards.</p>
+                </div>
+            </div>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-5">
-          <div class="bg-slate-100 py-5 px-7 rounded-lg  shadow-md">
-          <div class="text-xl text-primary mb-4">
-            <i class=" fa fa-check"></i>
-          </div>
-          <h3 class=" font-semibold text-xl mb-2">Quality Products </h3>
-            <p  class="text-grey-600 text-lg">
-            We Provide the best quality Products  </p>
-        </div>
-        <div class="bg-slate-100 py-5 px-7 rounded-lg  shadow-md">
-          <div class="text-xl text-primary mb-4">
-            <i class=" fa fa-truck"></i>
-          </div>
-          <h3 class=" font-semibold text-xl mb-2">Fast Delivery </h3>
-            <p  class="text-grey-600 text-lg">
-            Get your products deliver fixed time.  </p>
-        </div>
-        <div class="bg-slate-100 py-5 px-7 rounded-lg  shadow-md">
-          <div class="text-xl text-primary mb-4">
-            <i class=" fa fa-refresh"></i>
-          </div>
-          <h3 class=" font-semibold text-xl mb-2">Easy Returns</h3>
-            <p  class="text-grey-600 text-lg">
-            Quick Returns. No Questions, No Stress.  </p>
-        </div>
-        <div class="bg-slate-100 py-5 px-7 rounded-lg  shadow-md">
-          <div class="text-xl text-primary mb-4">
-            <i class=" fa fa-credit-card"></i>
-          </div>
-          <h3 class=" font-semibold text-xl mb-2">Secure Payment</h3>
-            <p  class="text-grey-600 text-lg">
-            No Risks. Just Rewards.</p>
-        </div>
-        </div>
-      </div>
     </section>
-
+    </section>
     <!--  Products -->
     <section class="py-16 bg-slate-100">
-      <div class="cointainer mx-auto px-4"> 
-        <div class="mb-10">
-          <h2 class="text-3xl font-bold text-center mb-4"> Featured Products </h2>
-        <p  class="text-grey-600 text-lg text-center">
-            Customer Favorites. Quality Guaranteed.</p>
-           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div class="bg-white rounded-lg shadow-md ">
-              <div class=" relative">
-                <img src="assets/images/Puma_runnning.jpg"  class=" rounded-t-lg w-full h-48 object-cover "
-                alt="phone"/>
-                <span class="absolute top-2 left-2 bg-red-500 text-white rounded-full text-xs py-3 px-1">-20%</span>
+        <div class="container mx-auto px-4">
+            <div class="mb-10">
+                <h2 class="text-3xl font-bold text-center mb-4"> Featured Products </h2>
+                <p class="text-gray-600 text-lg text-center">
+                    Customer Favorites. Quality Guaranteed.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-white rounded-lg shadow-md ">
+                        <div class=" relative">
+                            <img src="assets/images/Puma_runnning.jpg" class=" rounded-t-lg w-full h-48 object-cover " alt="phone" />
+                            <span class="absolute top-2 left-2 bg-red-500 text-white rounded-full text-xs py-3 px-1">-20%</span>
 
 
-              </div>
-              
-
-              <div class="p-4">
-                <h3 class="font-semibold text-xl">Puma Shoes</h3>
-                <div class=" text-yellow-500 text-xs py-2">
-                  <i class="fa fa-star "> </i>
-                  <i class="fa fa-star "> </i>
-                  <i class="fa fa-star "> </i>
-                   <i class="fa fa-star "> </i>
-                  <i class="fa fa-star-half " > </i>
-
-                  <span class="text-gray-500 ">
-                    (299)
-                  </span>
+                        </div>
 
 
+                        <div class="p-4">
+                            <h3 class="font-semibold text-xl">Puma Shoes</h3>
+                            <div class=" text-yellow-500 text-xs py-2">
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star-half "> </i>
+
+                                <span class="text-gray-500 ">
+                    
+                                      (299)
+                  
+                  
+                                  </span>
+
+
+                            </div>
+                            <div class="flex justify-between">
+                                <div>
+                                    <span class="text-primary font-bold mr-1 text-lg">$900.99</span>
+                                    <span class="line-through text-gray-600 text-sm">$1300.5</span>
+                                </div>
+                                <button class="text-primary">  <i class="fa fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md ">
+                        <div class=" relative">
+                            <img src="assets/images/newblance_running.jpg" class=" rounded-t-lg w-full h-48 object-cover " alt="phone" />
+                            <span class="absolute top-2 left-2 bg-red-500 text-white rounded-full text-xs py-3 px-1">-20%</span>
+
+
+                        </div>
+
+
+                        <div class="p-4">
+                            <h3 class="font-semibold text-xl">New Blance</h3>
+                            <div class=" text-yellow-500 text-xs py-2">
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star-half "> </i>
+
+                                <span class="text-gray-500 ">
+                   
+                                      (299)
+                  
+                                    </span>
+
+
+                            </div>
+                            <div class="flex justify-between">
+                                <div>
+                                    <span class="text-primary font-bold mr-1 text-lg">$900.99</span>
+                                    <span class="line-through text-gray-600 text-sm">$1300.5</span>
+                                </div>
+                                <button class="text-primary">  <i class="fa fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md ">
+                        <div class=" relative">
+                            <img src="assets/images/Air_jordan.jpg" class=" rounded-t-lg w-full h-48 object-cover " alt="phone" />
+                            <span class="absolute top-2 left-2 bg-red-500 text-white rounded-full text-xs py-3 px-1">-20%</span>
+
+
+                        </div>
+
+
+                        <div class="p-4">
+                            <h3 class="font-semibold text-xl">Air Jordan</h3>
+                            <div class=" text-yellow-500 text-xs py-2">
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star-half "> </i>
+
+                                <span class="text-gray-500 ">
+                    
+                                      (299)
+                  
+                                    </span>
+
+
+                            </div>
+                            <div class="flex justify-between">
+                                <div>
+                                    <span class="text-primary font-bold mr-1 text-lg">$900.99</span>
+                                    <span class="line-through text-gray-600 text-sm">$1300.5</span>
+                                </div>
+                                <button class="text-primary">  <i class="fa fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md ">
+                        <div class=" relative">
+                            <img src="assets/images/running_nike.jpg" class=" rounded-t-lg w-full h-48 object-cover " alt="phone" />
+                            <span class="absolute top-2 left-2 bg-red-500 text-white rounded-full text-xs py-3 px-1">-20%</span>
+
+
+                        </div>
+
+
+                        <div class="p-4">
+                            <h3 class="font-semibold text-xl">Nike Shoes</h3>
+                            <div class=" text-yellow-500 text-xs py-2">
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star-half "> </i>
+
+                                <span class="text-gray-500 ">
+                   
+                   
+                                      (299)
+                  
+                                    </span>
+
+
+                            </div>
+                            <div class="flex justify-between">
+                                <div>
+                                    <span class="text-primary font-bold mr-1 text-lg">$900.99</span>
+                                    <span class="line-through text-gray-600 text-sm">$1300.5</span>
+                                </div>
+                                <button class="text-primary">  <i class="fa fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md ">
+                        <div class=" relative">
+                            <img src="assets/images/banner.jpg" class=" rounded-t-lg w-full h-48  " alt="phone" />
+                            <span class="absolute top-2 left-2 bg-red-500 text-white rounded-full text-xs py-3 px-1">-20%</span>
+
+
+                        </div>
+
+
+                        <div class="p-4">
+                            <h3 class="font-semibold text-xl">Sports Shoes</h3>
+                            <div class=" text-yellow-500 text-xs py-2">
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star-half "> </i>
+
+                                <span class="text-gray-500 ">
+                   
+                                      (299)
+                 
+                                    </span>
+
+
+                            </div>
+                            <div class="flex justify-between">
+                                <div>
+                                    <span class="text-primary font-bold mr-1 text-lg">$900.99</span>
+                                    <span class="line-through text-gray-600 text-sm">$1300.5</span>
+                                </div>
+                                <button class="text-primary">  <i class="fa fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md ">
+                        <div class=" relative">
+                            <img src="assets/images/martin_boots.jpg" class=" rounded-t-lg w-full h-48 object-cover " alt="phone" />
+                            <span class="absolute top-2 left-2 bg-red-500 text-white rounded-full text-xs py-3 px-1">-20%</span>
+
+
+                        </div>
+
+
+                        <div class="p-4">
+                            <h3 class="font-semibold text-xl">Martin</h3>
+                            <div class=" text-yellow-500 text-xs py-2">
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star-half "> </i>
+
+                                <span class="text-gray-500 ">
+                    
+                                      (299)
+                  
+                                    </span>
+
+
+                            </div>
+                            <div class="flex justify-between">
+                                <div>
+                                    <span class="text-primary font-bold mr-1 text-lg">$900.99</span>
+                                    <span class="line-through text-gray-600 text-sm">$1300.5</span>
+                                </div>
+                                <button class="text-primary">  <i class="fa fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md ">
+                        <div class=" relative">
+                            <img src="assets/images/csaual_boots.jpg" class=" rounded-t-lg w-full h-48 object-cover " alt="phone" />
+                            <span class="absolute top-2 left-2 bg-red-500 text-white rounded-full text-xs py-3 px-1">-20%</span>
+
+
+                        </div>
+
+
+                        <div class="p-4">
+                            <h3 class="font-semibold text-xl">Casual Boots</h3>
+                            <div class=" text-yellow-500 text-xs py-2">
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star-half "> </i>
+
+                                <span class="text-gray-500 ">
+                   
+                                      (299)
+                 
+                                    </span>
+
+
+                            </div>
+                            <div class="flex justify-between">
+                                <div>
+                                    <span class="text-primary font-bold mr-1 text-lg">$900.99</span>
+                                    <span class="line-through text-gray-600 text-sm">$1300.5</span>
+                                </div>
+                                <button class="text-primary">  <i class="fa fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md ">
+                        <div class=" relative">
+                            <img src="assets/images/Boots.jpg" class=" rounded-t-lg w-full h-48 object-cover " alt="phone" />
+                            <span class="absolute top-2 left-2 bg-red-500 text-white rounded-full text-xs py-3 px-1">-20%</span>
+
+
+                        </div>
+
+
+                        <div class="p-4">
+                            <h3 class="font-semibold text-xl">Leather Boots</h3>
+                            <div class=" text-yellow-500 text-xs py-2">
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star "> </i>
+                                <i class="fa fa-star-half "> </i>
+
+                                <span class="text-gray-500 ">
+                    
+                                      (299)
+                 
+                                    </span>
+
+
+                            </div>
+                            <div class="flex justify-between">
+                                <div>
+                                    <span class="text-primary font-bold mr-1 text-lg">$900.99</span>
+                                    <span class="line-through text-gray-600 text-sm">$1300.5</span>
+                                </div>
+                                <button class="text-primary">  <i class="fa fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+
+
+                    </div>
                 </div>
-                <div class="flex justify-between">
-                  <div>
-                  <span class="text-primary font-bold mr-1 text-lg">$900.99</span>
-                  <span class="line-through text-grey-600 text-sm">$1300.5</span>
-                  </div>
-                  <button class="text-primary">  <i class="fa fa-shopping-cart"></i></button>
-                </div>
-              </div>
-                
-
             </div>
-            <div class="bg-white rounded-lg shadow-md ">
-              <div class=" relative">
-                <img src="assets/images/newblance_running.jpg"  class=" rounded-t-lg w-full h-48 object-cover "
-                alt="phone"/>
-                <span class="absolute top-2 left-2 bg-red-500 text-white rounded-full text-xs py-3 px-1">-20%</span>
 
-
-              </div>
-              
-
-              <div class="p-4">
-                <h3 class="font-semibold text-xl">New Blance</h3>
-                <div class=" text-yellow-500 text-xs py-2">
-                  <i class="fa fa-star "> </i>
-                  <i class="fa fa-star "> </i>
-                  <i class="fa fa-star "> </i>
-                   <i class="fa fa-star "> </i>
-                  <i class="fa fa-star-half " > </i>
-
-                  <span class="text-gray-500 ">
-                    (299)
-                  </span>
-
-
-                </div>
-                <div class="flex justify-between">
-                  <div>
-                  <span class="text-primary font-bold mr-1 text-lg">$900.99</span>
-                  <span class="line-through text-grey-600 text-sm">$1300.5</span>
-                  </div>
-                  <button class="text-primary">  <i class="fa fa-shopping-cart"></i></button>
-                </div>
-              </div>
-                
-
-            </div>
-            <div class="bg-white rounded-lg shadow-md ">
-              <div class=" relative">
-                <img src="assets/images/Air_jordan.jpg"  class=" rounded-t-lg w-full h-48 object-cover "
-                alt="phone"/>
-                <span class="absolute top-2 left-2 bg-red-500 text-white rounded-full text-xs py-3 px-1">-20%</span>
-
-
-              </div>
-              
-
-              <div class="p-4">
-                <h3 class="font-semibold text-xl">Air Jordan</h3>
-                <div class=" text-yellow-500 text-xs py-2">
-                  <i class="fa fa-star "> </i>
-                  <i class="fa fa-star "> </i>
-                  <i class="fa fa-star "> </i>
-                   <i class="fa fa-star "> </i>
-                  <i class="fa fa-star-half " > </i>
-
-                  <span class="text-gray-500 ">
-                    (299)
-                  </span>
-
-
-                </div>
-                <div class="flex justify-between">
-                  <div>
-                  <span class="text-primary font-bold mr-1 text-lg">$900.99</span>
-                  <span class="line-through text-grey-600 text-sm">$1300.5</span>
-                  </div>
-                  <button class="text-primary">  <i class="fa fa-shopping-cart"></i></button>
-                </div>
-              </div>
-                
-
-            </div>
-            <div class="bg-white rounded-lg shadow-md ">
-              <div class=" relative">
-                <img src="assets/images/running_nike.jpg"  class=" rounded-t-lg w-full h-48 object-cover "
-                alt="phone"/>
-                <span class="absolute top-2 left-2 bg-red-500 text-white rounded-full text-xs py-3 px-1">-20%</span>
-
-
-              </div>
-              
-
-              <div class="p-4">
-                <h3 class="font-semibold text-xl">Nike Shoes</h3>
-                <div class=" text-yellow-500 text-xs py-2">
-                  <i class="fa fa-star "> </i>
-                  <i class="fa fa-star "> </i>
-                  <i class="fa fa-star "> </i>
-                   <i class="fa fa-star "> </i>
-                  <i class="fa fa-star-half " > </i>
-
-                  <span class="text-gray-500 ">
-                    (299)
-                  </span>
-
-
-                </div>
-                <div class="flex justify-between">
-                  <div>
-                  <span class="text-primary font-bold mr-1 text-lg">$900.99</span>
-                  <span class="line-through text-grey-600 text-sm">$1300.5</span>
-                  </div>
-                  <button class="text-primary">  <i class="fa fa-shopping-cart"></i></button>
-                </div>
-              </div>
-                
-
-            </div>
-            <div class="bg-white rounded-lg shadow-md ">
-              <div class=" relative">
-                <img src="assets/images/banner.jpg"  class=" rounded-t-lg w-full h-48  "
-                alt="phone"/>
-                <span class="absolute top-2 left-2 bg-red-500 text-white rounded-full text-xs py-3 px-1">-20%</span>
-
-
-              </div>
-              
-
-              <div class="p-4">
-                <h3 class="font-semibold text-xl">Sports Shoes</h3>
-                <div class=" text-yellow-500 text-xs py-2">
-                  <i class="fa fa-star "> </i>
-                  <i class="fa fa-star "> </i>
-                  <i class="fa fa-star "> </i>
-                   <i class="fa fa-star "> </i>
-                  <i class="fa fa-star-half " > </i>
-
-                  <span class="text-gray-500 ">
-                    (299)
-                  </span>
-
-
-                </div>
-                <div class="flex justify-between">
-                  <div>
-                  <span class="text-primary font-bold mr-1 text-lg">$900.99</span>
-                  <span class="line-through text-grey-600 text-sm">$1300.5</span>
-                  </div>
-                  <button class="text-primary">  <i class="fa fa-shopping-cart"></i></button>
-                </div>
-              </div>
-                
-
-            </div>
-            <div class="bg-white rounded-lg shadow-md ">
-              <div class=" relative">
-                <img src="assets/images/martin_boots.jpg"  class=" rounded-t-lg w-full h-48 object-cover "
-                alt="phone"/>
-                <span class="absolute top-2 left-2 bg-red-500 text-white rounded-full text-xs py-3 px-1">-20%</span>
-
-
-              </div>
-             
-
-              <div class="p-4">
-                <h3 class="font-semibold text-xl">Martin</h3>
-                <div class=" text-yellow-500 text-xs py-2">
-                  <i class="fa fa-star "> </i>
-                  <i class="fa fa-star "> </i>
-                  <i class="fa fa-star "> </i>
-                   <i class="fa fa-star "> </i>
-                  <i class="fa fa-star-half " > </i>
-
-                  <span class="text-gray-500 ">
-                    (299)
-                  </span>
-
-
-                </div>
-                <div class="flex justify-between">
-                  <div>
-                  <span class="text-primary font-bold mr-1 text-lg">$900.99</span>
-                  <span class="line-through text-grey-600 text-sm">$1300.5</span>
-                  </div>
-                  <button class="text-primary">  <i class="fa fa-shopping-cart"></i></button>
-                </div>
-              </div>
-                
-
-            </div>
-            <div class="bg-white rounded-lg shadow-md ">
-              <div class=" relative">
-                <img src="assets/images/csaual_boots.jpg"  class=" rounded-t-lg w-full h-48 object-cover "
-                alt="phone"/>
-                <span class="absolute top-2 left-2 bg-red-500 text-white rounded-full text-xs py-3 px-1">-20%</span>
-
-
-              </div>
-             
-
-              <div class="p-4">
-                <h3 class="font-semibold text-xl">Casual Boots</h3>
-                <div class=" text-yellow-500 text-xs py-2">
-                  <i class="fa fa-star "> </i>
-                  <i class="fa fa-star "> </i>
-                  <i class="fa fa-star "> </i>
-                   <i class="fa fa-star "> </i>
-                  <i class="fa fa-star-half " > </i>
-
-                  <span class="text-gray-500 ">
-                    (299)
-                  </span>
-
-
-                </div>
-                <div class="flex justify-between">
-                  <div>
-                  <span class="text-primary font-bold mr-1 text-lg">$900.99</span>
-                  <span class="line-through text-grey-600 text-sm">$1300.5</span>
-                  </div>
-                  <button class="text-primary">  <i class="fa fa-shopping-cart"></i></button>
-                </div>
-              </div>
-                
-
-            </div>
-            <div class="bg-white rounded-lg shadow-md ">
-              <div class=" relative">
-                <img src="assets/images/Boots.jpg"  class=" rounded-t-lg w-full h-48 object-cover "
-                alt="phone"/>
-                <span class="absolute top-2 left-2 bg-red-500 text-white rounded-full text-xs py-3 px-1">-20%</span>
-
-
-              </div>
-              
-
-              <div class="p-4">
-                <h3 class="font-semibold text-xl">Leather Boots</h3>
-                <div class=" text-yellow-500 text-xs py-2">
-                  <i class="fa fa-star "> </i>
-                  <i class="fa fa-star "> </i>
-                  <i class="fa fa-star "> </i>
-                   <i class="fa fa-star "> </i>
-                  <i class="fa fa-star-half " > </i>
-
-                  <span class="text-gray-500 ">
-                    (299)
-                  </span>
-
-
-                </div>
-                <div class="flex justify-between">
-                  <div>
-                  <span class="text-primary font-bold mr-1 text-lg">$900.99</span>
-                  <span class="line-through text-grey-600 text-sm">$1300.5</span>
-                  </div>
-                  <button class="text-primary">  <i class="fa fa-shopping-cart"></i></button>
-                </div>
-              </div>
-                
-
-            </div>
-        </div>
-        </div>
-
-        <div class="text-center mt-12">
-            <a
-              href="#products"
-              class="text-white bg-primary px-6 py-3 rounded-lg font-medium hover:bg-primary/90"
-              >View All Products</a
+            <div class="text-center mt-12">
+                <a href="#products" class="text-white bg-primary px-6 py-3 rounded-lg font-medium hover:bg-primary/90">View All Products</a
             >
           </div>
       </div>
@@ -449,10 +455,10 @@
 
     <!-- popular products -->
     <section class="py-16 ">
-      <div class="coinatiner mx-auto px-4 "> 
+      <div class="container mx-auto px-4 "> 
         <div class="mb-10">
           <h2 class="text-3xl font-bold text-center mb-4"> Most Selling Products </h2>
-        <p  class="text-grey-600 text-lg text-center">
+        <p  class="text-gray-600 text-lg text-center">
             Top Sellers, Loved by Thousands.</p>
           </div>
 
@@ -469,14 +475,14 @@
 
               <div class="p-4">
                 <h3 class="font-semibold text-xl">Air Jordan 2</h3>
-                <p class="font-semibold text-grey-600 text-sm py-2">Best in Class. Best in Demand.</p>
+                <p class="font-semibold text-gray-600 text-sm py-2">Best in Class. Best in Demand.</p>
 
 
                 </div>
                 <div class="flex justify-between">
                   <div>
                   <span class="text-primary font-bold mr-1 text-lg">$900.99</span>
-                  <span class="line-through text-grey-600 text-sm">$1300.5</span>
+                  <span class="line-through text-gray-600 text-sm">$1300.5</span>
                   </div>
                   <button class=" bg-primary text-white rounded px-3 py-1 text-sm"> <span >Add to Cart</span> <i class="fa fa-shopping-cart"></i></button>
                 </div>
@@ -493,14 +499,14 @@
 
               <div class="p-4">
                 <h3 class="font-semibold text-xl">Boots</h3>
-                <p class="font-semibold text-grey-600 text-sm py-2">Best in Class. Best in Demand.</p>
+                <p class="font-semibold text-gray-600 text-sm py-2">Best in Class. Best in Demand.</p>
 
 
                 </div>
                 <div class="flex justify-between">
                   <div>
                   <span class="text-primary font-bold mr-1 text-lg">$900.99</span>
-                  <span class="line-through text-grey-600 text-sm">$1300.5</span>
+                  <span class="line-through text-gray-600 text-sm">$1300.5</span>
                   </div>
                   <button class=" bg-primary text-white rounded px-3 py-1 text-sm"> <span >Add to Cart</span> <i class="fa fa-shopping-cart"></i></button>
                 </div>
@@ -518,14 +524,14 @@
 
               <div class="p-4">
                 <h3 class="font-semibold text-xl">Converse Shoes</h3>
-                <p class="font-semibold text-grey-600 text-sm py-2">Best in Class. Best in Demand.</p>
+                <p class="font-semibold text-gray-600 text-sm py-2">Best in Class. Best in Demand.</p>
 
 
                 </div>
                 <div class="flex justify-between">
                   <div>
                   <span class="text-primary font-bold mr-1 text-lg">$900.99</span>
-                  <span class="line-through text-grey-600 text-sm">$1300.5</span>
+                  <span class="line-through text-gray-600 text-sm">$1300.5</span>
                   </div>
                   <button class=" bg-primary text-white rounded px-3 py-1 text-sm"> <span >Add to Cart</span> <i class="fa fa-shopping-cart"></i></button>
                 </div>
@@ -543,14 +549,14 @@
 
               <div class="p-4">
                 <h3 class="font-semibold text-xl">Puma Shoes</h3>
-                <p class="font-semibold text-grey-600 text-sm py-2">Best in Class. Best in Demand.</p>
+                <p class="font-semibold text-gray-600 text-sm py-2">Best in Class. Best in Demand.</p>
 
 
                 </div>
                 <div class="flex justify-between">
                   <div>
                   <span class="text-primary font-bold mr-1 text-lg">$900.99</span>
-                  <span class="line-through text-grey-600 text-sm">$1300.5</span>
+                  <span class="line-through text-gray-600 text-sm">$1300.5</span>
                   </div>
                   <button class=" bg-primary text-white rounded px-3 py-1 text-sm"> <span >Add to Cart</span> <i class="fa fa-shopping-cart"></i></button>
                 </div>
@@ -568,14 +574,14 @@
 
               <div class="p-4">
                 <h3 class="font-semibold text-xl"> Sports Shoes</h3>
-                <p class="font-semibold text-grey-600 text-sm py-2">Best in Class. Best in Demand.</p>
+                <p class="font-semibold text-gray-600 text-sm py-2">Best in Class. Best in Demand.</p>
 
 
                 </div>
                 <div class="flex justify-between">
                   <div>
                   <span class="text-primary font-bold mr-1 text-lg">$900.99</span>
-                  <span class="line-through text-grey-600 text-sm">$1300.5</span>
+                  <span class="line-through text-gray-600 text-sm">$1300.5</span>
                   </div>
                   <button class=" bg-primary text-white rounded px-3 py-1 text-sm"> <span >Add to Cart</span> <i class="fa fa-shopping-cart"></i></button>
                 </div>
@@ -593,14 +599,14 @@
 
               <div class="p-4">
                 <h3 class="font-semibold text-xl">Martin Boots</h3>
-                <p class="font-semibold text-grey-600 text-sm py-2">Best in Class. Best in Demand.</p>
+                <p class="font-semibold text-gray-600 text-sm py-2">Best in Class. Best in Demand.</p>
 
 
                 </div>
                 <div class="flex justify-between">
                   <div>
                   <span class="text-primary font-bold mr-1 text-lg">$900.99</span>
-                  <span class="line-through text-grey-600 text-sm">$1300.5</span>
+                  <span class="line-through text-gray-600 text-sm">$1300.5</span>
                   </div>
                   <button class=" bg-primary text-white rounded px-3 py-1 text-sm"> <span >Add to Cart</span> <i class="fa fa-shopping-cart"></i></button>
                 </div>
@@ -618,14 +624,14 @@
 
               <div class="p-4">
                 <h3 class="font-semibold text-xl">Nike Shoes</h3>
-                <p class="font-semibold text-grey-600 text-sm py-2">Best in Class. Best in Demand.</p>
+                <p class="font-semibold text-gray-600 text-sm py-2">Best in Class. Best in Demand.</p>
 
 
                 </div>
                 <div class="flex justify-between">
                   <div>
                   <span class="text-primary font-bold mr-1 text-lg">$900.99</span>
-                  <span class="line-through text-grey-600 text-sm">$1300.5</span>
+                  <span class="line-through text-gray-600 text-sm">$1300.5</span>
                   </div>
                   <button class=" bg-primary text-white rounded px-3 py-1 text-sm"> <span >Add to Cart</span> <i class="fa fa-shopping-cart"></i></button>
                 </div>
@@ -643,7 +649,7 @@
 
               <div class="p-4">
                 <h3 class="font-semibold text-xl">New Blance</h3>
-                <p class="font-semibold text-grey-600 text-sm py-2">Best in Class. Best in Demand.</p>
+                <p class="font-semibold text-gray-600 text-sm py-2">Best in Class. Best in Demand.</p>
 
 
                 </div>
@@ -662,11 +668,11 @@
           </div>
     </section>
 <!-- Call to Action  -->
-      <section class="py-16 bg-primary">d
-        <div class="cointainer mx-auto px-4">
+      <section class="py-16 bg-primary">
+        <div class="container mx-auto px-4">
              <div class="mb-6">
           <h2 class="text-3xl font-bold text-center mb-4 text-white"> Join Our Newsletter</h2>
-          <p class="text-grey-600 text-lg text-center text-slate-100">
+          <p class="text-gray-600 text-lg text-center text-slate-100">
             Subscribe to our newsletter for exclusive offers and updates.
           </p>
           </div>
@@ -706,158 +712,220 @@
               </div>
             </a>
 
-            <a href="#">
-              <div
-                class="bg-white rounded-lg shadow-md hover:shadow-lg transition p-6 flex flex-col items-center gap-2 justify-between"
-              >
-                <div
-                  class="text-primary text-3xl bg-slate-100 p-5 h-20 w-20 rounded-full flex items-center justify-center"
-                >
-                  <i class="fa fa-shopping-bag"></i>
-                </div>
-                <div class="text-center">
-                  <h3 class="font-semibold text-lg">Cosmetics & Fashion</h3>
-                  <p class="text-slate-600 text-sm">562 Products</p>
-                </div>
-              </div></a
-            >
-            <a href="#">
-              <div
-                class="bg-white rounded-lg shadow-md hover:shadow-lg transition p-6 flex flex-col items-center gap-2 justify-between"
-              >
-                <div
-                  class="text-primary text-3xl bg-slate-100 p-5 h-20 w-20 rounded-full flex items-center justify-center"
-                >
-                  <i class="fa fa-cutlery"></i>
-                </div>
-                <div class="text-center">
-                  <h3 class="font-semibold text-lg">Groceries</h3>
-                  <p class="text-slate-600 text-sm">95 Products</p>
-                </div>
-              </div>
-            </a>
-            <a href="#">
-              <div
-                class="bg-white rounded-lg shadow-md hover:shadow-lg transition p-6 flex flex-col items-center gap-2 justify-between"
-              >
-                <div
-                  class="text-primary text-3xl bg-slate-100 p-5 h-20 w-20 rounded-full flex items-center justify-center"
-                >
-                  <i class="fa fa-cube"></i>
-                </div>
-                <div class="text-center">
-                  <h3 class="font-semibold text-lg">Miscellaneous</h3>
-                  <p class="text-slate-600 text-sm">255 Products</p>
-                </div>
-              </div>
-            </a>
-          </div>
+                <a href="#">
+                    <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition p-6 flex flex-col items-center gap-2 justify-between">
+                        <div class="text-primary text-3xl bg-slate-100 p-5 h-20 w-20 rounded-full flex items-center justify-center">
+                            <i class="fa fa-shopping-bag"></i>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="font-semibold text-lg">Cosmetics & Fashion</h3>
+                            <p class="text-slate-600 text-sm">562 Products</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition p-6 flex flex-col items-center gap-2 justify-between">
+                        <div class="text-primary text-3xl bg-slate-100 p-5 h-20 w-20 rounded-full flex items-center justify-center">
+                            <i class="fa fa-cutlery"></i>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="font-semibold text-lg">Groceries</h3>
+                            <p class="text-slate-600 text-sm">95 Products</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition p-6 flex flex-col items-center gap-2 justify-between">
+                        <div class="text-primary text-3xl bg-slate-100 p-5 h-20 w-20 rounded-full flex items-center justify-center">
+                            <i class="fa fa-cube"></i>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="font-semibold text-lg">Miscellaneous</h3>
+                            <p class="text-slate-600 text-sm">255 Products</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
-      </section>
+    </section>
 
-      
-      <!-- Testimonials  -->
-<section id="testimonials" class="py-16">
-  <div class="container mx-auto px-4">
-    <div class="mb-10">
-      <h2 class="text-3xl font-bold text-center mb-4">
-        What Our Customers Say
-      </h2>
-      <p class="text-gray-600 text-center">
-        Hear from our satisfied customers.
-      </p>
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-      <div class="bg-slate-100 rounded-lg shadow-md hover:shadow-lg transition p-6">
-         <div class="text-slate-500"><i class="fa fa-quote-right"></i></div>
-        <p class="text-sm text-slate-600">
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. At doloremque excepturi, adipisci hic aliquam atque ad rem ipsa assumenda maiores quibusdam aut sapiente? Voluptates eos quo magnam suscipit! Labore perspiciatis possimus accusantium commodi quis sit. Ipsum cumque optio suscipit sunt."
-        </p>
-        <div class="text-yellow-500 text-sm py-3">
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star-half"></i>
-        </div>
-        <div class="flex items-center gap-3">
-          <img src="assets/images/running_nike.jpg" alt="user" class="w-12 h-12 rounded-full object-cover mb-3 border-slate-500">
-          <div>
-            <h4 class="font-semibold">Ujjwal Bhardwaj Singh</h4>
-            <p class="text-xs text-slate-500">Satisfied Customer</p>
-          </div>
-        </div>
-      </div>
-      <div class="bg-slate-100 rounded-lg shadow-md hover:shadow-lg transition p-6">
-         <div class="text-slate-500"><i class="fa fa-quote-right"></i></div>
-        <p class="text-sm text-slate-600 justify-center">
-         
-         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit necessitatibus eveniet, repudiandae accusamus quae maxime sunt esse sint ipsum minus omnis incidunt reprehenderit officia praesentium aspernatur expedita. Facilis, numquam eligendi tempora dicta illum pariatur tempore accusantium aspernatur magnam cumque sapiente!
-        </p>
-        <div class="text-yellow-500 text-sm py-3">
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-        </div>
-        <div class="flex items-center gap-3">
-          <img src="assets/images/martin_boots.jpg" alt="user" class="w-12 h-12 rounded-full object-cover mb-3 border-slate-500">
-          <div>
-            <h4 class="font-semibold">Priya Sharma</h4>
-            <p class="text-xs text-slate-500">Happy Customer</p>
-          </div>
-        </div>
-      </div>
-      <div class="bg-slate-100 rounded-lg shadow-md hover:shadow-lg transition p-6">
-         <div class="text-slate-500"><i class="fa fa-quote-right"></i></div>
-        <p class="text-sm text-slate-600 justify-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis dolore, atque corporis, temporibus consequatur dolores eveniet fugit exercitationem tempora itaque ea. Veritatis quisquam, eaque laudantium debitis error, eos voluptatibus provident, in distinctio expedita iusto reiciendis voluptate itaque. In, sapiente nemo.
-        </p>
-        <div class="text-yellow-500 text-sm py-3">
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star-half"></i>
-        </div>
-        <div class="flex items-center gap-3">
-          <img src="assets/images/newblance_running.jpg" alt="user" class="w-12 h-12 rounded-full object-cover mb-3 border-slate-500">
-          <div>
-            <h4 class="font-semibold">Rahul Verma</h4>
-            <p class="text-xs text-slate-500">Returning Customer</p>
-          </div>
-        </div>
-      </div>
-      <div class="bg-slate-100 rounded-lg shadow-md hover:shadow-lg transition p-6">
-        <div class="text-slate-500"><i class="fa fa-quote-right"></i></div>
-        <p class="text-sm text-slate-600 justify-center">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque similique temporibus, nemo, inventore neque quia voluptatum voluptates nesciunt totam, quibusdam vitae? Soluta perspiciatis labore distinctio ipsa asperiores voluptate eos quibusdam, dolores qui incidunt facere iusto expedita molestias, porro, dolorem non!
-        </p>
-        <div class="text-yellow-500 text-sm py-3">
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-        </div>
-        <div class="flex items-center gap-3">
-          <img src="assets/images/Boots.jpg" alt="user" class="w-12 h-12 rounded-full object-cover mb-3 border-slate-500">
-          <div>
-            <h4 class="font-semibold">Sneha Patel</h4>
-            <p class="text-xs text-slate-500">Verified Buyer</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-         
-      </div>
-      </section>
 
-  </main>
-  <footer class=" bg-black-500 text-white"></footer>
+    <!-- Testimonials  -->
+    <section id="testimonials" class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="mb-10">
+                <h2 class="text-3xl font-bold text-center mb-4">
+                    What Our Customers Say
+                </h2>
+                <p class="text-gray-600 text-center">
+                    Hear from our satisfied customers.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="bg-slate-100 rounded-lg shadow-md hover:shadow-lg transition p-6">
+                    <div class="text-slate-500"><i class="fa fa-quote-right"></i></div>
+                    <p class="text-sm text-slate-600">
+                        "Lorem ipsum dolor sit amet consectetur adipisicing elit. At doloremque excepturi, adipisci hic aliquam atque ad rem ipsa assumenda maiores quibusdam aut sapiente? Voluptates eos quo magnam suscipit! Labore perspiciatis possimus accusantium commodi quis
+                        sit. Ipsum cumque optio suscipit sunt."
+                    </p>
+                    <div class="text-yellow-500 text-sm py-3">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <img src="assets/images/running_nike.jpg" alt="user" class="w-12 h-12 rounded-full object-cover mb-3 border-slate-500">
+                        <div>
+                            <h4 class="font-semibold">Ujjwal Bhardwaj Singh</h4>
+                            <p class="text-xs text-slate-500">Satisfied Customer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-slate-100 rounded-lg shadow-md hover:shadow-lg transition p-6">
+                    <div class="text-slate-500"><i class="fa fa-quote-right"></i></div>
+                    <p class="text-sm text-slate-600 justify-center">
+
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit necessitatibus eveniet, repudiandae accusamus quae maxime sunt esse sint ipsum minus omnis incidunt reprehenderit officia praesentium aspernatur expedita. Facilis, numquam eligendi tempora
+                        dicta illum pariatur tempore accusantium aspernatur magnam cumque sapiente!
+                    </p>
+                    <div class="text-yellow-500 text-sm py-3">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <img src="assets/images/martin_boots.jpg" alt="user" class="w-12 h-12 rounded-full object-cover mb-3 border-slate-500">
+                        <div>
+                            <h4 class="font-semibold">Priya Sharma</h4>
+                            <p class="text-xs text-slate-500">Happy Customer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-slate-100 rounded-lg shadow-md hover:shadow-lg transition p-6">
+                    <div class="text-slate-500"><i class="fa fa-quote-right"></i></div>
+                    <p class="text-sm text-slate-600 justify-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis dolore, atque corporis, temporibus consequatur dolores eveniet fugit exercitationem tempora itaque ea. Veritatis quisquam, eaque laudantium debitis error, eos voluptatibus provident,
+                        in distinctio expedita iusto reiciendis voluptate itaque. In, sapiente nemo.
+                    </p>
+                    <div class="text-yellow-500 text-sm py-3">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <img src="assets/images/newblance_running.jpg" alt="user" class="w-12 h-12 rounded-full object-cover mb-3 border-slate-500">
+                        <div>
+                            <h4 class="font-semibold">Rahul Verma</h4>
+                            <p class="text-xs text-slate-500">Returning Customer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-slate-100 rounded-lg shadow-md hover:shadow-lg transition p-6">
+                    <div class="text-slate-500"><i class="fa fa-quote-right"></i></div>
+                    <p class="text-sm text-slate-600 justify-center">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque similique temporibus, nemo, inventore neque quia voluptatum voluptates nesciunt totam, quibusdam vitae? Soluta perspiciatis labore distinctio ipsa asperiores voluptate eos quibusdam, dolores
+                        qui incidunt facere iusto expedita molestias, porro, dolorem non!
+                    </p>
+                    <div class="text-yellow-500 text-sm py-3">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <img src="assets/images/Boots.jpg" alt="user" class="w-12 h-12 rounded-full object-cover mb-3 border-slate-500">
+                        <div>
+                            <h4 class="font-semibold">Sneha Patel</h4>
+                            <p class="text-xs text-slate-500">Verified Buyer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        </div>
+    </section>
+    </section>
+
+    </main>
 </body>
 
+<section>
+    <footer class="bg-pink-100 py-10 mt-12">
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+
+                <!-- Logo and Description -->
+                <div>
+                    <h2 class="text-2xl font-bold mb-2">
+                        <span class="text-secondary"> Shoes</span>
+                        <span class="text-primary">Kart</span> </h2>
+                    <p class=" text-sm text-black ">Your one-stop shop for the best products with fast delivery and top-notch service.</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-3 ">Quick Links</h3>
+                    <ul class="space-y-2 text-sm text-primary ">
+                        <li><a href="# " class="hover:text-secondary ">Home</a></li>
+                        <li><a href="# " class="hover:text-secondary ">Shop</a></li>
+                        <li><a href="# " class="hover:text-secondary">About</a></li>
+                        <li><a href="# " class="hover:text-secondary">Contact</a></li>
+                        <li><a href="# " class="hover:text-secondary ">Help Center</a></li>
+                        <li><a href="# " class="hhover:text-secondary ">Returns</a></li>
+                        <li><a href="# " class="hhover:text-secondary ">Shipping</a></li>
+                        <li><a href="# " class="hover:text-secondary">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Payment section -->
+
+
+                <div>
+                    <h3 class="text-lg font-bold text-primary mb-3">We Accept</h3>
+
+                    <div class="flex items-start flex-col gap-3">
+                        <img src="assets/payment/esewa.png" class="w-32 h-12 object-contain bg-white rounded px-5 py-2" alt="Esewa" />
+                        <img src="assets/payment/phonepay.png" class="w-32 h-12 object-contain bg-white rounded px-5 py-2" alt="PhonePay" />
+                        <img src="assets/payment/khalti.png" class="w-32 h-12 object-contain bg-white rounded px-5 py-2" alt="Khalti" />
+                    </div>
+
+                </div>
+
+
+                <!-- Social Links -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-3 text-primary">Contact Us</h3>
+                    <div class="flex space-x-4 text-xl text-primary ">
+                        <a href="# " class="hover:text-secondary "><i class="fab fa-facebook "></i></a>
+                        <a href="# " class="hover:text-secondary"><i class="fab fa-instagram "></i></a>
+                        <a href="# " class="hover:text-secondary "><i class="fab fa-twitter "></i></a>
+                        <a href="# " class="hover:text-secondary"><i class="fab fa-youtube "></i></a>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mt-8 border-t border-gray-700 pt-6 rtext-sm text-gray-500 ">
+                &copy; 2025
+                <span class="text-secondary">Shoes </span><span class=" text-primary ">Kart</span>. All rights reserved. <a href="#" class="text-sm text-slate-400 hover:underline">Privary Policy</a>
+                <a href="#" class="text-sm text-slate-400 hover:underline">Terms & Conditions</a></div>
+        </div>
+
+    </footer>
+</section>
 
 </html>
